@@ -1,0 +1,12 @@
+// import scss variable
+@import "./variable/color";
+@import "./variable/font";
+@import "./variable/border-margin.scss";
+
+// import scss mixin
+@import "./mixin/flexbox";
+@import "./mixin/button";
+
+// import scss file for each components
+@import "./body.scss";
+@import "./../components/header-component/Header.scss";
