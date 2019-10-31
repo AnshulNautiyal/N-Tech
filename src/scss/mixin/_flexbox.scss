@@ -1,9 +1,9 @@
 // --------------------------------------------------
-// Flexbox SASS mixins
+// Flex-box SASS mixins
 // --------------------------------------------------
 
-// Flexbox display
-@mixin flexbox() {
+// Flex-box display
+@mixin flex-box() {
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -85,7 +85,7 @@
 
 // Flex basis
 // - the initial main size of the flex item
-// - applies to: flex itemsnitial main size of the flex item
+// - applies to: flex items initial main size of the flex item
 // <width>
 @mixin flex-basis($width) {
   -webkit-flex-basis: $width;

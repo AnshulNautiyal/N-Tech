@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "./../common-components/Button";
 
 export default props => {
   const { logo = "" } = props;
@@ -13,7 +14,7 @@ export default props => {
         <span>Services</span>
         <span>Contacts</span>
 
-        <button className="header-button">Subscribe</button>
+        <Button buttonName="Subscribe"></Button>
       </div>
     </header>
   );

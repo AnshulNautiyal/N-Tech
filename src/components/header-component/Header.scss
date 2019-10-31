@@ -8,7 +8,7 @@
     height: 100%;
     width: 70%;
     min-width: 300px;
-    @include flexbox();
+    @include flex-box();
     @include align-items(center);
 
     .logo-container {
@@ -20,7 +20,7 @@
     }
 
     .header-menu {
-      @include flexbox();
+      @include flex-box();
       @include justify-content(space-evenly);
       @include align-items(center);
       flex-grow: 1;
