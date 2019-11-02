@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/AnshulNautiyal/N-Tech/static/css/main.5ee6ad26.chunk.css",
+    "main.js": "/AnshulNautiyal/N-Tech/static/js/main.448e81b5.chunk.js",
+    "main.js.map": "/AnshulNautiyal/N-Tech/static/js/main.448e81b5.chunk.js.map",
+    "runtime-main.js": "/AnshulNautiyal/N-Tech/static/js/runtime-main.e3c02e78.js",
+    "runtime-main.js.map": "/AnshulNautiyal/N-Tech/static/js/runtime-main.e3c02e78.js.map",
+    "static/js/2.087ae2a6.chunk.js": "/AnshulNautiyal/N-Tech/static/js/2.087ae2a6.chunk.js",
+    "static/js/2.087ae2a6.chunk.js.map": "/AnshulNautiyal/N-Tech/static/js/2.087ae2a6.chunk.js.map",
+    "index.html": "/AnshulNautiyal/N-Tech/index.html",
+    "precache-manifest.8b1dc71615394b85f0f331e2638051b2.js": "/AnshulNautiyal/N-Tech/precache-manifest.8b1dc71615394b85f0f331e2638051b2.js",
+    "service-worker.js": "/AnshulNautiyal/N-Tech/service-worker.js",
+    "static/css/main.5ee6ad26.chunk.css.map": "/AnshulNautiyal/N-Tech/static/css/main.5ee6ad26.chunk.css.map",
+    "static/media/LogoPNG.png": "/AnshulNautiyal/N-Tech/static/media/LogoPNG.34e2b1c8.png",
+    "static/media/LogoPNG2.png": "/AnshulNautiyal/N-Tech/static/media/LogoPNG2.456e135e.png",
+    "static/media/work.png": "/AnshulNautiyal/N-Tech/static/media/work.2de6c574.png",
+    "static/media/work2.png": "/AnshulNautiyal/N-Tech/static/media/work2.b5ce801f.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e3c02e78.js",
+    "static/js/2.087ae2a6.chunk.js",
+    "static/css/main.5ee6ad26.chunk.css",
+    "static/js/main.448e81b5.chunk.js"
+  ]
+}
