@@ -1,7 +1,7 @@
 import React from "react";
 
 export default props => {
-  const { buttonName = "Button" } = props;
+  const { buttonName = "Button", customClass = "" } = props;
 
-  return <button className="header-button">{buttonName}</button>;
+  return <button className={`header-button ${customClass}`}>{buttonName}</button>;
 };

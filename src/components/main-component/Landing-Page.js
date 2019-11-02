@@ -1,12 +1,15 @@
 import React from "react";
-import Detail from "./../common-components/Detail";
-import Image from "./../common-components/Detail";
+import { Detail } from "./../common-components/Detail";
+import { Image } from "./../common-components/Image";
 
-export default props => {
+
+export const Landing = props => {
+
+  const { detailData = "" } = props;
   return (
     <>
-      <Detail></Detail>
-      <Image></Image>
+      <Detail {...detailData} />
+      <Image fileName="work" />
     </>
   );
 };

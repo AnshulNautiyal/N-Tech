@@ -1,15 +1,24 @@
-import React from "react";
+import React, { useState } from "react";
 import image from "../../static/images/logo/LogoPNG2.png";
-import Header from "./Header";
-import Landing from "./../main-component";
+import { Header } from "./Header";
 
-function App() {
+export function HeaderMain() {
+
+  const [customShadow, setCustomShadow] = useState("");
+
+  window.onscroll = (e) => {
+    const scrollPosition = window.scrollY;
+    if (scrollPosition >= 100) {
+      setCustomShadow("shadow")
+    } else {
+      setCustomShadow("")
+    }
+
+  }
   return (
-    <div className="header-section">
+    <div className={`header-section ${customShadow}`}>
       <Header logo={image} />
-      <Landing></Landing>
     </div>
   );
 }
 
-export default App;

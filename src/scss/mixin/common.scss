@@ -1,0 +1,32 @@
+@mixin center($top, $left) {
+    position: absolute;
+    top:$top;
+    left:$left;
+    transform: translate(-50%, -50%);
+}
+
+@mixin section-header($font) {
+    -webkit-tap-highlight-color: transparent;
+    text-align: left;
+    -webkit-font-smoothing: subpixel-antialiased;
+    font-weight:$normal-weight;
+    color: $heading;
+    font-size: 	$font;
+    line-height: 1.31034;
+    visibility: visible;
+    animation-delay: 0.2s;
+    animation-name: slideInLeft;
+}
+@mixin section-sub-text($font) {
+    margin:1.25rem 0;
+    -webkit-tap-highlight-color: transparent;
+    text-align: left;
+    font-size: $font;
+    line-height: 1.78571;
+    font-weight: $normal-weight;
+    color: $paragraph;
+    -webkit-font-smoothing: subpixel-antialiased;
+    visibility: visible;
+    animation-delay: 0.3s;
+    animation-name: slideInLeft;
+}

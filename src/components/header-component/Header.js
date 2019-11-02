@@ -1,7 +1,7 @@
 import React from "react";
 import Button from "./../common-components/Button";
 
-export default props => {
+export const Header = props => {
   const { logo = "" } = props;
   return (
     <header className="header-container">

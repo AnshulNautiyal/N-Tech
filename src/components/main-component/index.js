@@ -1,11 +1,12 @@
 import React from "react";
-import Wrapper from "./../common-components/Wrapper";
-import Landing from "./Landing-Page";
+import { Wrapper } from "./../common-components/Wrapper";
+import { Landing } from "./Landing-Page";
+import { INTRO } from './../../static/Data/TextData';
 
-export default props => {
+export const LandingMainPage = props => {
   return (
     <Wrapper customClass="landing-section">
-      <Landing></Landing>
+      <Landing detailData={INTRO}></Landing>
     </Wrapper>
   );
 };

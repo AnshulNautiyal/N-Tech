@@ -1,13 +1,17 @@
 import React from 'react';
-import Header from './header-component';
+import { HeaderMain } from './header-component';
+import { LandingMainPage } from "./main-component";
+import { CommonSection } from "./common-section";
 
 function DOM() {
 
-        return (
-            <>
-                <Header />
-            </>
-        );
+    return (
+        <>
+            <HeaderMain />
+            <LandingMainPage />
+            <CommonSection />
+        </>
+    );
 }
 
 export default DOM;

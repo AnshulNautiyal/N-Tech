@@ -2,24 +2,29 @@ import React from "react";
 import Button from "./Button";
 
 function returnNumberOfButtons(noOfButton) {
+  let totalButton = [];
   if (noOfButton) {
-    noOfButton.map((item, index) => {
+    totalButton = noOfButton.map((item, index) => {
       const btnName = item.btnName;
       const btnColor = item.color;
-
-      return <Button buttonName={btnName} buttonColor={btnColor}></Button>;
+      const btnClass = btnColor === "green" ? "greenButton" : "transparent-button"
+      return <Button key={index} customClass={btnClass} buttonName={btnName} buttonColor={btnColor}></Button>;
     });
   }
+  return totalButton;
 }
 
-export default props => {
+export const Detail = props => {
   const { heading = "", subHeading = "", noOfButton = [] } = props;
   const BUTTONS = returnNumberOfButtons(noOfButton);
   return (
     <div className="detail-section">
-      <h6>{heading}</h6>
-      <p>{subHeading}</p>
-      <div>{BUTTONS}</div>
+      <div className="detail-container">
+        <h6>{heading}</h6>
+        <p>{subHeading}</p>
+        <div>{BUTTONS}</div>
+      </div>
+
     </div>
   );
 };

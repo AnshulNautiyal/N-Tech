@@ -1,4 +1,4 @@
-.landing-section {
+.challenge-section {
   
     min-height: 90vh;
     margin: 0 auto;
@@ -12,18 +12,29 @@
         .detail-container {
 
             width: 100%;
+            margin-left: 70px;
+
             @include center(70%,50%);
             background: white;
             h6 {
-                @include section-header($ft58);
+                @include section-header($ft42);
             }
             p{  
-                @include section-sub-text($ft20);
+                @include section-sub-text($base-font);
             }
             div {
-                button {
+                .greenButton {
                     @include buttonGreen();
                     &:hover {
+                        background: $btn-hover-color;
+                        box-shadow: 0 8px 32px rgba(37,112,255,.46);
+                        border-color: $btn-border-hover-color;
+                    }
+                }
+                .transparent-button {
+                    @include transparentButton();
+                    &:hover {
+                        color: $btn-text;
                         background: $btn-hover-color;
                         box-shadow: 0 8px 32px rgba(37,112,255,.46);
                         border-color: $btn-border-hover-color;
