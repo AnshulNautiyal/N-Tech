@@ -23,3 +23,43 @@ export const CHALLENGES = {
     }
   ]
 };
+
+
+export const ServicesData = {
+
+  header: "We provide a wide range of creative services",
+  service: [
+    {
+      logoPath: "",
+      subHeading: "Web Design",
+      content: "A great brand combines design and messaging to evoke emotion in your customers and drive strategy."
+    },
+    {
+      logoPath: "",
+      subHeading: "Web Development",
+      content: "A great brand combines design and messaging to evoke emotion in your customers and drive strategy."
+    },
+    {
+      logoPath: "",
+      subHeading: "Software Development",
+      content: "A great brand combines design and messaging to evoke emotion in your customers and drive strategy."
+    },
+    {
+      logoPath: "",
+      subHeading: "Android/iOS App Development",
+      content: "A great brand combines design and messaging to evoke emotion in your customers and drive strategy."
+    },
+    {
+      logoPath: "",
+      subHeading: "Testing & Automation",
+      content: "A great brand combines design and messaging to evoke emotion in your customers and drive strategy."
+    },
+    {
+      logoPath: "",
+      subHeading: "Training",
+      content: "A great brand combines design and messaging to evoke emotion in your customers and drive strategy."
+    },
+
+
+  ]
+} 

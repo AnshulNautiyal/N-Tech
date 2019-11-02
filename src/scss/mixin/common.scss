@@ -30,3 +30,45 @@
     animation-delay: 0.3s;
     animation-name: slideInLeft;
 }
+
+@mixin serviceBox($font: $ft14, $top : 0, $right : 0,  $bottom : 0, $left:0) {
+    -webkit-tap-highlight-color: transparent;
+    text-align: left;
+    font-family: roboto,sans-serif;
+    font-size: $font;
+    line-height: 1.78571;
+    font-weight: 300;
+    color: $paragraph;
+    -webkit-font-smoothing: subpixel-antialiased;
+    visibility: visible;
+    box-sizing: border-box;
+    padding: 35px 30px;
+    max-width: 370px;
+    margin: $top $right $bottom $left;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 44px rgba(17,29,48,.06);
+    transition: ease-in-out .3s;
+}
+
+@mixin icon {
+    -webkit-tap-highlight-color: transparent;
+    text-align: left;
+    font-family: roboto,sans-serif;
+    font-weight: 300;
+    -webkit-font-smoothing: subpixel-antialiased;
+    visibility: visible;
+    color: #fff;
+    font-size: 36px;
+    line-height: 92px;
+    width: 36;
+    height: 36;
+    fill: none;
+    box-sizing: border-box;
+    overflow: hidden;
+    vertical-align: middle;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
