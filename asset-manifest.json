@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/AnshulNautiyal/N-Tech/static/css/main.466a70e2.chunk.css",
-    "main.js": "/AnshulNautiyal/N-Tech/static/js/main.1da47fa1.chunk.js",
-    "main.js.map": "/AnshulNautiyal/N-Tech/static/js/main.1da47fa1.chunk.js.map",
-    "runtime-main.js": "/AnshulNautiyal/N-Tech/static/js/runtime-main.e3c02e78.js",
-    "runtime-main.js.map": "/AnshulNautiyal/N-Tech/static/js/runtime-main.e3c02e78.js.map",
-    "static/js/2.1aa4b895.chunk.js": "/AnshulNautiyal/N-Tech/static/js/2.1aa4b895.chunk.js",
-    "static/js/2.1aa4b895.chunk.js.map": "/AnshulNautiyal/N-Tech/static/js/2.1aa4b895.chunk.js.map",
-    "index.html": "/AnshulNautiyal/N-Tech/index.html",
-    "precache-manifest.98410ec8f610eaf8952a393105c69e98.js": "/AnshulNautiyal/N-Tech/precache-manifest.98410ec8f610eaf8952a393105c69e98.js",
-    "service-worker.js": "/AnshulNautiyal/N-Tech/service-worker.js",
-    "static/css/main.466a70e2.chunk.css.map": "/AnshulNautiyal/N-Tech/static/css/main.466a70e2.chunk.css.map",
-    "static/media/LogoPNG.png": "/AnshulNautiyal/N-Tech/static/media/LogoPNG.34e2b1c8.png",
-    "static/media/LogoPNG2.png": "/AnshulNautiyal/N-Tech/static/media/LogoPNG2.456e135e.png",
-    "static/media/contact.png": "/AnshulNautiyal/N-Tech/static/media/contact.ad272e2a.png",
-    "static/media/work.png": "/AnshulNautiyal/N-Tech/static/media/work.2de6c574.png",
-    "static/media/work2.png": "/AnshulNautiyal/N-Tech/static/media/work2.b5ce801f.png",
-    "static/media/work3.png": "/AnshulNautiyal/N-Tech/static/media/work3.255a568e.png"
+    "main.css": "/N-Tech/static/css/main.466a70e2.chunk.css",
+    "main.js": "/N-Tech/static/js/main.2289ca8d.chunk.js",
+    "main.js.map": "/N-Tech/static/js/main.2289ca8d.chunk.js.map",
+    "runtime-main.js": "/N-Tech/static/js/runtime-main.4227eac5.js",
+    "runtime-main.js.map": "/N-Tech/static/js/runtime-main.4227eac5.js.map",
+    "static/js/2.1aa4b895.chunk.js": "/N-Tech/static/js/2.1aa4b895.chunk.js",
+    "static/js/2.1aa4b895.chunk.js.map": "/N-Tech/static/js/2.1aa4b895.chunk.js.map",
+    "index.html": "/N-Tech/index.html",
+    "precache-manifest.460172fefbf192958f1e87bac52efff8.js": "/N-Tech/precache-manifest.460172fefbf192958f1e87bac52efff8.js",
+    "service-worker.js": "/N-Tech/service-worker.js",
+    "static/css/main.466a70e2.chunk.css.map": "/N-Tech/static/css/main.466a70e2.chunk.css.map",
+    "static/media/LogoPNG.png": "/N-Tech/static/media/LogoPNG.34e2b1c8.png",
+    "static/media/LogoPNG2.png": "/N-Tech/static/media/LogoPNG2.456e135e.png",
+    "static/media/contact.png": "/N-Tech/static/media/contact.ad272e2a.png",
+    "static/media/work.png": "/N-Tech/static/media/work.2de6c574.png",
+    "static/media/work2.png": "/N-Tech/static/media/work2.b5ce801f.png",
+    "static/media/work3.png": "/N-Tech/static/media/work3.255a568e.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.e3c02e78.js",
+    "static/js/runtime-main.4227eac5.js",
     "static/js/2.1aa4b895.chunk.js",
     "static/css/main.466a70e2.chunk.css",
-    "static/js/main.1da47fa1.chunk.js"
+    "static/js/main.2289ca8d.chunk.js"
   ]
 }
