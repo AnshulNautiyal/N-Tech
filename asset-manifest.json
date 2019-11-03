@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/N-Tech/static/css/main.466a70e2.chunk.css",
-    "main.js": "/N-Tech/static/js/main.83688ce8.chunk.js",
-    "main.js.map": "/N-Tech/static/js/main.83688ce8.chunk.js.map",
+    "main.js": "/N-Tech/static/js/main.589bd43d.chunk.js",
+    "main.js.map": "/N-Tech/static/js/main.589bd43d.chunk.js.map",
     "runtime-main.js": "/N-Tech/static/js/runtime-main.4227eac5.js",
     "runtime-main.js.map": "/N-Tech/static/js/runtime-main.4227eac5.js.map",
     "static/js/2.9cd9c350.chunk.js": "/N-Tech/static/js/2.9cd9c350.chunk.js",
     "static/js/2.9cd9c350.chunk.js.map": "/N-Tech/static/js/2.9cd9c350.chunk.js.map",
     "index.html": "/N-Tech/index.html",
-    "precache-manifest.b9fb222caf089253273216a386f48d5e.js": "/N-Tech/precache-manifest.b9fb222caf089253273216a386f48d5e.js",
+    "precache-manifest.43d765a3b2b2e3d857c9c041044bb228.js": "/N-Tech/precache-manifest.43d765a3b2b2e3d857c9c041044bb228.js",
     "service-worker.js": "/N-Tech/service-worker.js",
     "static/css/main.466a70e2.chunk.css.map": "/N-Tech/static/css/main.466a70e2.chunk.css.map",
     "static/media/LogoPNG.png": "/N-Tech/static/media/LogoPNG.34e2b1c8.png",
@@ -22,6 +22,6 @@
     "static/js/runtime-main.4227eac5.js",
     "static/js/2.9cd9c350.chunk.js",
     "static/css/main.466a70e2.chunk.css",
-    "static/js/main.83688ce8.chunk.js"
+    "static/js/main.589bd43d.chunk.js"
   ]
 }
