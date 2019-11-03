@@ -56,6 +56,9 @@
 
       &:hover {
         cursor: pointer;
+        background: $service-back-color;
+        border-color:$service-back-color;
+        color: $btn-text;
         box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
       }
     }

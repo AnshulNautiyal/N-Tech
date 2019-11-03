@@ -1,0 +1,77 @@
+.contact-section {
+    margin: auto;
+    max-width: 1200px;
+    margin-top: 200px;
+    @include flex-box();
+    
+    .contact {
+        
+        @include flex-grow(1);
+
+        &-container {
+            -webkit-tap-highlight-color: transparent;
+            text-align: left;
+            font-size: $ft14;   
+            line-height: 1.78571;
+            color: #5d6678;
+            -webkit-font-smoothing: subpixel-antialiased;
+            box-sizing: border-box;
+            max-width: 460px;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 30px 35px;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 44px rgba(17,29,48,.06);
+            visibility: visible;
+            animation-delay: 0.2s;
+            animation-name: fadeIn;
+
+            h2 {
+                @include section-header($ft36);
+                margin-bottom: 20px;
+                font-weight: 400;
+            }
+
+            input,textarea {
+                @include input();
+            }
+            label {
+                @include label();
+            }
+            .contact-name,
+            .contact-phone,
+            .contact-message{
+                -webkit-tap-highlight-color: transparent;
+                font-family: roboto,sans-serif;
+                font-size: 14px;
+                line-height: 1.78571;
+                font-weight: 300;
+                color: #5d6678;
+                -webkit-font-smoothing: subpixel-antialiased;
+                visibility: visible;
+                text-align: left;
+                box-sizing: border-box;
+                position: relative;
+                margin-bottom: 20px;
+                input {
+                }
+                textarea {
+                    height: 150px;
+                }
+                label {
+                   
+                }
+            }
+            .header-button {
+                @include buttonGreen();
+                &:hover {
+                    background: $btn-hover-color;
+                    box-shadow: 0 8px 32px rgba(37,112,255,.46);
+                    border-color: $btn-border-hover-color;
+                }
+            }
+        }
+    }
+
+}
