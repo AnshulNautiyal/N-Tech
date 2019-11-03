@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "946516192df4e90d279be24de8722efa",
+    "revision": "dddacb77d06a9ea3d2a251c6f58480dd",
     "url": "/AnshulNautiyal/N-Tech/index.html"
   },
   {
-    "revision": "eef82786b9d997b62a36",
+    "revision": "708fbf8d81c21cd0fee4",
     "url": "/AnshulNautiyal/N-Tech/static/css/main.466a70e2.chunk.css"
   },
   {
-    "revision": "f4f3a803c51a8d5922ba",
-    "url": "/AnshulNautiyal/N-Tech/static/js/2.95338123.chunk.js"
+    "revision": "7924afc329ed348f7529",
+    "url": "/AnshulNautiyal/N-Tech/static/js/2.c9f69163.chunk.js"
   },
   {
-    "revision": "eef82786b9d997b62a36",
-    "url": "/AnshulNautiyal/N-Tech/static/js/main.0e056ca4.chunk.js"
+    "revision": "708fbf8d81c21cd0fee4",
+    "url": "/AnshulNautiyal/N-Tech/static/js/main.0e2eda2f.chunk.js"
   },
   {
     "revision": "4c986e2990725aa63c56",
