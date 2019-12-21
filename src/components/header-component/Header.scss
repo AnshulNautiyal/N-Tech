@@ -57,7 +57,7 @@
       &:hover {
         cursor: pointer;
         background: $service-back-color;
-        border-color:$service-back-color;
+        border-color: $service-back-color;
         color: $btn-text;
         box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
       }
@@ -65,5 +65,5 @@
   }
 }
 .shadow {
-  box-shadow: 1px 1px 10px 0 rgba(0,0,0,.2);
+  box-shadow: 1px 1px 10px 0 rgba(0, 0, 0, 0.5);
 }

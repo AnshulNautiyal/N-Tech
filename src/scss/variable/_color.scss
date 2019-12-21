@@ -1,16 +1,18 @@
 // text color
 $action-btn: #707070;
-$paragraph:#5d6678;
-$heading:#1d273b;
+$paragraph: #5d6678;
+$heading: #1d273b;
 $btn-text: #ffffff;
-$text-hover:#1fde82;
+$text-hover: #1fde82;
+$placeholder-text: #999;
 
 // background color
 $action-btn-background: #ffffff;
-$btn-hover-color:#2570ff;
-$service-back-color:$text-hover;
-$landing-background:#F7FAFF;
+$btn-hover-color: #2570ff;
+$service-back-color: $text-hover;
+$landing-background: #f7faff;
 
 // border color
 $action-btn-border: #9e9e9e;
-$btn-border-hover-color:$btn-hover-color;
+$btn-border-hover-color: $btn-hover-color;
+$border-invalid-input: #ff7730;
