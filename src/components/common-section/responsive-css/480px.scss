@@ -1,0 +1,31 @@
+@media only screen and (max-width: 480px) {
+  .challenge-section {
+    @include flex-direction(column);
+    .detail-section {
+      .detail-container {
+        margin: 0 30px;
+        margin-top: 50px;
+        h6 {
+          font-size: 2rem;
+        }
+
+        p {
+        }
+        div {
+          .greenButton {
+          }
+        }
+        .transparent-button {
+          &:hover {
+          }
+        }
+      }
+    }
+    .landing-image {
+      margin-top: 60px;
+      img {
+        width: 300px;
+      }
+    }
+  }
+}

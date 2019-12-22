@@ -1,0 +1,31 @@
+@media only screen and (max-width: 480px) {
+  .registration {
+    &-section {
+      h1 {
+        font-size: 30px;
+      }
+      .form__group {
+        .form__button {
+          .header-button {
+          }
+        }
+
+        .form__container {
+          padding: 40px 0;
+          padding-bottom: 0;
+          .form__group--label {
+            width: 100%;
+            .form__input {
+            }
+            input::-webkit-input-placeholder {
+            }
+            input:placeholder-shown + .form__label {
+            }
+            .form__label {
+            }
+          }
+        }
+      }
+    }
+  }
+}

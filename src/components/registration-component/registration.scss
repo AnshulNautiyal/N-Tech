@@ -1,10 +1,6 @@
 .registration {
-  height: 500px;
-  background: #d7d9dd;
-
+  background: $landing-background;
   &-section {
-    max-width: 1200px;
-    margin: auto;
     h1 {
       text-align: center !important;
       box-sizing: border-box;
@@ -17,12 +13,15 @@
       font-size: 42px;
       line-height: 1.30952;
       visibility: visible;
-      padding-top: 30px;
+      padding-top: 60px;
     }
     .form__group {
+      @include flex-box();
+      @include flex-direction(column);
+      @include justify-content(center);
+      @include align-items(center);
+
       .form__button {
-        width: 100%;
-        text-align: center;
         .header-button {
           @include buttonGreen();
           &:hover {
@@ -51,6 +50,8 @@
             border: none;
             border-bottom: 2px solid transparent;
             transition: all 0.3s;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12),
+              0 1px 2px rgba(0, 0, 0, 0.24);
             &:focus {
               outline: none;
               box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12),

@@ -7,8 +7,16 @@ function returnNumberOfButtons(noOfButton) {
     totalButton = noOfButton.map((item, index) => {
       const btnName = item.btnName;
       const btnColor = item.color;
-      const btnClass = btnColor === "green" ? "greenButton" : "transparent-button"
-      return <Button key={index} customClass={btnClass} buttonName={btnName} buttonColor={btnColor}></Button>;
+      const btnClass =
+        btnColor === "green" ? "greenButton" : "transparent-button";
+      return (
+        <Button
+          key={index}
+          customClass={btnClass}
+          buttonName={btnName}
+          buttonColor={btnColor}
+        ></Button>
+      );
     });
   }
   return totalButton;
@@ -24,7 +32,6 @@ export const Detail = props => {
         <p>{subHeading}</p>
         <div>{BUTTONS}</div>
       </div>
-
     </div>
   );
 };

@@ -1,54 +1,45 @@
 .landing-section {
-  
-    min-height: 90vh;
-    margin: 0 auto;
-    max-width: 1200px;
-    display: flex;
-
-    .detail-section {
-    
-        @include flex-grow(1);
-        position: relative;
-        .detail-container {
-
-            width: 100%;
-            @include center(70%,50%);
-            background: white;
-            h6 {
-                @include section-header($ft58);
-            }
-            p{  
-                @include section-sub-text($ft20);
-            }
-            div {
-                
-                .greenButton {
-                    @include buttonGreen();
-                    &:hover {
-                        background: $btn-hover-color;
-                        box-shadow: 0 8px 32px rgba(37,112,255,.46);
-                        border-color: $btn-border-hover-color;
-                    }
-                }
-                .transparent-button {
-                    @include transparentButton();
-                    &:hover {
-                        color: $btn-text;
-                        background: $btn-hover-color;
-                        box-shadow: 0 8px 32px rgba(37,112,255,.46);
-                        border-color: $btn-border-hover-color;
-                    }
-                }
-            }
+  min-height: 95vh;
+  @include flex-box();
+  width: 100%;
+  .detail-section {
+    @include flex-box();
+    @include justify-content(center);
+    @include align-items(center);
+    @include flex-grow(1);
+    .detail-container {
+      background: white;
+      h6 {
+        @include section-header($ft58);
+      }
+      p {
+        @include section-sub-text($ft20);
+      }
+      div {
+        .greenButton {
+          @include buttonGreen();
+          &:hover {
+            background: $btn-hover-color;
+            box-shadow: 0 8px 32px rgba(37, 112, 255, 0.46);
+            border-color: $btn-border-hover-color;
+          }
         }
-    }
-    .landing-image {
-        @include flex-grow(1);
-        position: relative;
-        img {
-            @include center(60%,50%);
-            margin-top:1.25rem;
+        .transparent-button {
+          @include transparentButton();
+          &:hover {
+            color: $btn-text;
+            background: $btn-hover-color;
+            box-shadow: 0 8px 32px rgba(37, 112, 255, 0.46);
+            border-color: $btn-border-hover-color;
+          }
         }
+      }
     }
+  }
+  .landing-image {
+    @include flex-box();
+    @include justify-content(center);
+    @include align-items(flex-end);
+    @include flex-grow(1);
+  }
 }
-

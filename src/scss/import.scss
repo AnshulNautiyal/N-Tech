@@ -17,3 +17,12 @@
 @import "./../components/contact-component/Contact.scss";
 @import "./../components/registration-component/registration.scss";
 @import "./../components/footer-components/Footer.scss";
+
+// import responsive css code
+
+@import "./../components//header-component/responsive-css/header-responsive.scss";
+@import "./../components/main-component/responsive-css/responsive-main.scss";
+@import "./../components/common-section/responsive-css/responsive-section.scss";
+@import "./../components/service-components/responsive-css/responsive-service.scss";
+@import "./../components//registration-component/responsive-css/responsive-registration.scss";
+@import "./../components//footer-components/responsive-css/responsive-footer.scss";

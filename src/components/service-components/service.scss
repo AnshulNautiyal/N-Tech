@@ -1,79 +1,74 @@
 .service-section {
-
+  @include flex-box();
+  @include flex-direction(column);
+  margin-top: 60px;
+  .header {
+    @include section-header($ft42);
+    width: 30rem;
+  }
+  .service-list {
+    width: 100%;
     @include flex-box();
-    @include flex-direction(column);
-    max-width: 1200px;
-    margin: auto;
-    margin-top: 60px;
-    .header {
-        @include section-header($ft42);
-        width: 30rem;
-    }   
-    .service-list {
-
-        width: 100%;
-        @include flex-box();
-        @include flex-wrap(wrap);
-        .service-container {
-
-            width: 360px;
-            height: 380px;
-            @include serviceBox($ft14,40px, 40px);
-            div{
-                -webkit-tap-highlight-color: transparent;
-                text-align: left;
-                font-family: roboto,sans-serif;
-                -webkit-font-smoothing: subpixel-antialiased;
-                visibility: visible;
-                box-sizing: border-box;
-                position: relative;
-                width: 92px;
-                height: 92px;
-                color: #fff;
-                font-size: $ft36;
-                font-weight: $base-font-weight;
-                line-height: 92px;
-                border-radius: 50%;
-                margin-bottom: 40px;
-                margin-left: 20px;
-                background: $service-back-color;
-                box-shadow: 0 8px 32px rgba(31,222,130,.46);
-                svg {
-                    @include icon;
-                }
-            }
-            h2 {
-                margin-bottom: 20px;
-                @include section-header($ft22);
-                margin-left: 20px;
-                &:hover {
-                    color: $text-hover;
-                    cursor: pointer;
-                    transition: all .3s ease-in-out;
-                }
-            }
-            p {
-                @include section-sub-text($ft14);
-                margin-left: 20px;
-            }
-            a {
-                margin-left: 20px;
-                text-decoration: none;
-                @include section-header($ft14);
-                &:hover {
-                    color: $text-hover;
-                    cursor: pointer;
-                    transition: all .3s ease-in-out;
-                }
-                svg {
-                    margin-left: 10px;
-                }
-            }
-
-            &:hover {
-                box-shadow: 0 4px 44px rgba(17,29,48,.26);
-                cursor: default;
-            }
+    @include flex-wrap(wrap);
+    .service-container {
+      width: 360px;
+      height: 380px;
+      @include serviceBox($ft14, 40px, 40px);
+      div {
+        -webkit-tap-highlight-color: transparent;
+        text-align: left;
+        font-family: roboto, sans-serif;
+        -webkit-font-smoothing: subpixel-antialiased;
+        visibility: visible;
+        box-sizing: border-box;
+        position: relative;
+        width: 92px;
+        height: 92px;
+        color: #fff;
+        font-size: $ft36;
+        font-weight: $base-font-weight;
+        line-height: 92px;
+        border-radius: 50%;
+        margin-bottom: 40px;
+        margin-left: 20px;
+        background: $service-back-color;
+        box-shadow: 0 8px 32px rgba(31, 222, 130, 0.46);
+        svg {
+          @include icon;
         }
+      }
+      h2 {
+        margin-bottom: 20px;
+        @include section-header($ft22);
+        margin-left: 20px;
+        &:hover {
+          color: $text-hover;
+          cursor: pointer;
+          transition: all 0.3s ease-in-out;
+        }
+      }
+      p {
+        @include section-sub-text($ft14);
+        margin-left: 20px;
+      }
+      a {
+        margin-left: 20px;
+        text-decoration: none;
+        @include section-header($ft14);
+        &:hover {
+          color: $text-hover;
+          cursor: pointer;
+          transition: all 0.3s ease-in-out;
+        }
+        svg {
+          margin-left: 10px;
+        }
+      }
+
+      &:hover {
+        box-shadow: 0 4px 44px rgba(17, 29, 48, 0.26);
+        cursor: default;
+      }
     }
+  }
 }
