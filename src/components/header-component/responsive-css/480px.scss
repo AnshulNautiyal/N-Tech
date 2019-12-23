@@ -8,6 +8,60 @@
       .logo-container {
         height: 10rem;
       }
+      .hamburger-menu {
+        position: absolute;
+        top: 15px;
+        left: 15px;
+        border-radius: 100%;
+        width: 50px;
+        height: 50px;
+        .inner {
+          height: 100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: flex-start;
+          div {
+            background-color: $text-hover;
+            border-radius: 10px;
+            width: 25px;
+            height: 5px;
+            margin: 3px 0;
+            transition: all $_time;
+          }
+          &::after {
+            content: "";
+            background-color: $text-hover;
+            border-radius: 10px;
+            width: 35px;
+            height: 5px;
+          }
+          &::before {
+            content: "";
+            background-color: $text-hover;
+            border-radius: 10px;
+            width: 15px;
+            height: 5px;
+            transition: all $_time;
+          }
+        }
+        .toggler-inner {
+          div {
+            margin-left: 10px;
+            transition: all $_time ease-in-out;
+          }
+          &::before {
+            margin-left: 20px;
+            transition: all $_time ease-in-out;
+          }
+        }
+      }
+      .hide-hamburger-menu {
+        transform: translate(-500px, 0);
+      }
+      .show-hamburger-menu {
+        transform: translate(0, 0);
+      }
       .header-menu {
         position: absolute;
         top: 80px;
@@ -22,6 +76,7 @@
         height: 100vh;
         padding-left: 10px;
         box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+        transition: 0.5s ease-in-out;
 
         span {
           padding: 30px;
