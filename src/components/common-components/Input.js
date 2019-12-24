@@ -13,6 +13,8 @@ export const Input = props => {
   return (
     <div className="form__group--label">
       <input
+        onChange={props.handleUserInput}
+        name={labelFor}
         type={type}
         id={id}
         className="form__input"

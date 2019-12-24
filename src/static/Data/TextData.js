@@ -161,12 +161,12 @@ export const REGISTRATION = [
   },
   {
     type: "text",
-    alt: "Company Name",
-    placeholder: "Any Background-Professional/Academic",
-    id: "companyName",
+    alt: "primarySkill",
+    placeholder: "Primary Skill",
+    id: "primarySkill",
     requiredBool: true,
-    label: "Any Background-Professional/Academic",
-    labelFor: "companyName"
+    label: "Primary Skill",
+    labelFor: "primarySkill"
   },
   {
     type: "text",

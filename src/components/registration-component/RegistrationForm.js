@@ -1,9 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import { Input } from "./../common-components/Input";
 import { REGISTRATION } from "./../../static/Data/TextData";
 import Button from "./../common-components/Button";
+import { handleSubmit } from "./registration-ajax";
 
-function inputList(inputList = []) {
+function inputList(inputList = [], setUserInput) {
   return inputList.map((item, index) => {
     const {
       type = "text",
@@ -14,8 +15,20 @@ function inputList(inputList = []) {
     } = item;
     const { label = "", labelFor = "" } = item;
 
+    const handleUserInput = event => {
+      const { name = "", value = "" } = event.currentTarget;
+      setUserInput(currentState => {
+        return {
+          ...currentState,
+          [name]: value
+        };
+      });
+    };
+
     return (
       <Input
+        handleUserInput={handleUserInput}
+        name={labelFor}
         key={index}
         type={type}
         alt={alt}
@@ -29,9 +42,12 @@ function inputList(inputList = []) {
   });
 }
 export const RegistrationForm = props => {
+  const [userInput, setUserInput] = useState({});
   return (
-    <form className="form__group">
-      <div className="form__container">{inputList(REGISTRATION)}</div>
+    <form className="form__group" onSubmit={handleSubmit(userInput)}>
+      <div className="form__container">
+        {inputList(REGISTRATION, setUserInput)}
+      </div>
       <div className="form__button">
         <Button buttonName="SUBMIT" />
       </div>
