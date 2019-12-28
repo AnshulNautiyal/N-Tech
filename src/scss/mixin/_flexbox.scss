@@ -2,6 +2,13 @@
 // Flex-box SASS mixins
 // --------------------------------------------------
 
+// Common Flex-box Css combination
+@mixin common-flex() {
+  @include flex-box();
+  @include justify-content(center);
+  @include align-items(center);
+}
+
 // Flex-box display
 @mixin flex-box() {
   display: -webkit-box;

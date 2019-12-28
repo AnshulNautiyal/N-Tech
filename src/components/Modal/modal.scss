@@ -1,0 +1,73 @@
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background: $modal-background;
+  z-index: 2;
+  display: none;
+
+  &-container {
+    @include common-flex();
+    height: 100%;
+
+    .loader {
+      position: relative;
+      width: 150px;
+      height: 150px;
+      border-radius: 100%;
+      background: $loader-back;
+      border: 4px solid #9f9b9b2e;
+      box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.5), 0 0 20px rgba(0, 0, 0, 0.5);
+      @include common-flex();
+      font-size: 1rem;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      text-shadow: 0 0 10px $loader-border;
+      color: $loader-border;
+
+      &::before {
+        content: "";
+        position: absolute;
+        width: 150px;
+        height: 150px;
+        border-radius: 100%;
+        border: 4px solid transparent;
+        border-top: 4px solid $loader-border;
+        border-right: 4px solid $loader-border;
+        animation: spinner 1s linear infinite;
+      }
+    }
+
+    span {
+      display: block;
+      position: absolute;
+      width: 50%;
+      height: 10px;
+      left: 50%;
+      background: transparent;
+      transform-origin: left;
+      animation: spinner 1s linear infinite;
+      &::after {
+        content: "";
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        right: 15px;
+        top: 50px;
+        border-radius: 100%;
+        background: $loader-border;
+      }
+    }
+
+    @keyframes spinner {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+  }
+}

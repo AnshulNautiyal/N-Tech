@@ -7,6 +7,7 @@ import { ContactParent } from "./contact-component";
 import { RegistrationParent } from "./registration-component";
 import { FooterParent } from "./footer-components";
 import { INTRO, QUESTIONS } from "../static/Data/TextData";
+import { ModalParent } from "./Modal";
 
 function DOM() {
   return (
@@ -17,6 +18,7 @@ function DOM() {
       <ServiceParent />
       <LandingMainPage content={QUESTIONS} fileName="work3" />
       {/* <ContactParent fileName="contact" /> */}
+      <ModalParent />
       <RegistrationParent />
       <FooterParent />
     </>

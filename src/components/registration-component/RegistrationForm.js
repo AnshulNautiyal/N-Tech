@@ -41,7 +41,7 @@ function inputList(inputList = [], setUserInput) {
     );
   });
 }
-export const RegistrationForm = props => {
+export const RegistrationForm = () => {
   const [userInput, setUserInput] = useState({});
   return (
     <form className="form__group" onSubmit={handleSubmit(userInput)}>
