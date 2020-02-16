@@ -10,9 +10,14 @@ export const handleSubmit = userInput => event => {
   const formTag = event.target;
   axios
     .post(apiEndPoint, userInput)
-    .then(function() {
+    .then(function(response) {
+      const { status = "true", message = "" } = response.data;
       document.body.style.overflow = "auto";
       document.getElementById("modal").style.display = "none";
+
+      if (status === "true") {
+        document.getElementById("SuccessFailModal").style.display = "block";
+      }
       formTag.reset();
     })
     .catch(function(error) {

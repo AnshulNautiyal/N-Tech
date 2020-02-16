@@ -8,6 +8,7 @@ import { RegistrationParent } from "./registration-component";
 import { FooterParent } from "./footer-components";
 import { INTRO, QUESTIONS } from "../static/Data/TextData";
 import { ModalParent } from "./Modal";
+import { SuccessFailModalParent } from "./success-failure-components";
 
 function DOM() {
   return (
@@ -19,6 +20,7 @@ function DOM() {
       <LandingMainPage content={QUESTIONS} fileName="work3" />
       {/* <ContactParent fileName="contact" /> */}
       <ModalParent />
+      <SuccessFailModalParent />
       <RegistrationParent />
       <FooterParent />
     </>
