@@ -7,7 +7,7 @@ export const LandingMainPage = props => {
 
   const { content = "", fileName = "" } = props;
   return (
-    <Wrapper customClass="landing-section">
+    <Wrapper customClass="landing-section" id="header">
       <Landing detailData={content} fileName={fileName}></Landing>
     </Wrapper>
   );

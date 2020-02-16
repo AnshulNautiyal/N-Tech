@@ -8,6 +8,7 @@ import { RegistrationParent } from "./registration-component";
 import { FooterParent } from "./footer-components";
 import { INTRO, QUESTIONS } from "../static/Data/TextData";
 import { ModalParent } from "./Modal";
+import { MoveTopScroll } from "./MoveTopScroll/MoveTopScroll";
 import { SuccessFailModalParent } from "./success-failure-components";
 
 function DOM() {
@@ -23,6 +24,7 @@ function DOM() {
       <SuccessFailModalParent />
       <RegistrationParent />
       <FooterParent />
+      <MoveTopScroll />
     </>
   );
 }
