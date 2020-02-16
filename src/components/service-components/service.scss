@@ -12,7 +12,7 @@
     @include flex-wrap(wrap);
     .service-container {
       width: 360px;
-      height: 380px;
+      // height: 380px;
       @include serviceBox($ft14, 40px, 40px);
       div {
         -webkit-tap-highlight-color: transparent;

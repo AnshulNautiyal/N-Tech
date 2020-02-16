@@ -55,6 +55,7 @@
     }
     .header-button {
       @include button();
+      text-decoration: none;
 
       &:hover {
         cursor: pointer;

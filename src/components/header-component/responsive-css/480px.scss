@@ -45,6 +45,7 @@
             transition: all $_time;
           }
         }
+        
         .toggler-inner {
           div {
             margin-left: 10px;
@@ -83,6 +84,9 @@
         }
         button {
           margin: 30px;
+        }
+        .header-button {
+          display: none;
         }
       }
     }

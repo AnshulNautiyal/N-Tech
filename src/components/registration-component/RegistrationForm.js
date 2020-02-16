@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Input } from "./../common-components/Input";
 import { REGISTRATION } from "./../../static/Data/TextData";
-import Button from "./../common-components/Button";
+import { SubmitButton } from "./../common-components/SubmitButton";
 import { handleSubmit } from "./registration-ajax";
 
 function inputList(inputList = [], setUserInput) {
@@ -49,7 +49,7 @@ export const RegistrationForm = () => {
         {inputList(REGISTRATION, setUserInput)}
       </div>
       <div className="form__button">
-        <Button buttonName="SUBMIT" />
+        <SubmitButton buttonName="SUBMIT" />
       </div>
     </form>
   );

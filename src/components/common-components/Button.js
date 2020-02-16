@@ -1,11 +1,11 @@
 import React from "react";
 
 export default props => {
-  const { buttonName = "Button", customClass = "" } = props;
+  const { buttonName = "Button", customClass = "", id = "" } = props;
 
   return (
-    <button type="submit" className={`header-button ${customClass}`}>
+    <a type="submit" href={`#${id}`} className={`header-button ${customClass}`}>
       {buttonName}
-    </button>
+    </a>
   );
 };

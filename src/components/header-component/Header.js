@@ -46,7 +46,7 @@ export const Header = props => {
         <span onClick={handleHamburgerMenu(setCssClass)}>Services</span>
         <span onClick={handleHamburgerMenu(setCssClass)}>Contacts</span>
 
-        <Button buttonName="Subscribe"></Button>
+        <Button buttonName="Register" id="register"></Button>
       </div>
     </header>
   );

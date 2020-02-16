@@ -30,7 +30,7 @@ export const Detail = props => {
       <div className="detail-container">
         <h6>{heading}</h6>
         <p>{subHeading}</p>
-        <div>{BUTTONS}</div>
+        {/* <div>{BUTTONS}</div> */}
       </div>
     </div>
   );

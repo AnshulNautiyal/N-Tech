@@ -20,6 +20,7 @@
       @include flex-direction(column);
       @include justify-content(center);
       @include align-items(center);
+      min-height: 350px;
 
       .form__button {
         .header-button {

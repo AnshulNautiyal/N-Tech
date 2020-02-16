@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -14,4 +15,5 @@ body {
   height: 100vh;
   max-width: 1200px;
   margin: auto;
+  
 }

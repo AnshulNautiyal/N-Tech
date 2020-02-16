@@ -26,7 +26,7 @@ function noOfService(service = []) {
                 </div>
                 <h2>{subHeading}</h2>
                 <p>{content}</p>
-                <a href="#id">READ MORE <FontAwesomeIcon icon={faLongArrowAltRight} /></a>
+                {/* <a href="#id">READ MORE <FontAwesomeIcon icon={faLongArrowAltRight} /></a> */}
             </div>
         )
     })

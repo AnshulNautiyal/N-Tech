@@ -1,5 +1,5 @@
 export const INTRO = {
-  heading: "Work With N-Tech Services",
+  heading: "Work With N Tech Services",
   subHeading: "You bring the skill. We'll make earning easy",
   noOfButton: [
     {
@@ -86,10 +86,10 @@ export const ServicesData = {
 export const footerContentData = [
   {
     header: "",
-    logo: "../../static/images/logo/LogoPNG2.png",
+    logo: "",
     content: [
-      "<span>Phone:</span> +1 (045)-224-12-67",
-      "<span>Mail:</span> info@ntechservice.org"
+      
+      "<span>Mail:</span> contact@ntechserv.com"
     ],
     dangerHTML: 1
   },

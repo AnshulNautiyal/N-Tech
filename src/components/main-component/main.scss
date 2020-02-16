@@ -26,6 +26,7 @@
         }
         .transparent-button {
           @include transparentButton();
+          margin-bottom: 0;
           &:hover {
             color: $btn-text;
             background: $btn-hover-color;
