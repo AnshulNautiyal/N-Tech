@@ -10,10 +10,12 @@ import { INTRO, QUESTIONS } from "../static/Data/TextData";
 import { ModalParent } from "./Modal";
 import { MoveTopScroll } from "./MoveTopScroll/MoveTopScroll";
 import { SuccessFailModalParent } from "./success-failure-components";
+import { BigImage } from './common-components/BigImage';
 
 function DOM() {
   return (
     <>
+      <BigImage />
       <HeaderMain />
       <LandingMainPage content={INTRO} fileName="work" />
       <CommonSection />

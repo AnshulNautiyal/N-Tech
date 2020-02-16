@@ -1,0 +1,28 @@
+.big-image {
+    height: 100vh;
+  
+    img {
+        width: 100%;
+        transform-origin: center center;
+        animation: zoom 4s infinite;
+        margin-top: 100px;
+    }
+    @media only screen and (max-width: 480px) {
+        height: unset;
+        img {
+            margin-top: 85px;
+        }
+    }
+    @keyframes zoom {
+        0% {
+          transform: scale(1);
+        }
+        50% {
+          transform: scale(1.05);
+          /* equals 105% */
+        }
+        100% {
+          transform: scale(1);
+        }
+    }
+}
