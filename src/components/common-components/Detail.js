@@ -24,14 +24,14 @@ function returnNumberOfButtons(noOfButton) {
 }
 
 export const Detail = props => {
-  const { heading = "", subHeading = "", noOfButton = [] } = props;
+  const { heading = "", subHeading = "", noOfButton = [], extraContent= "" } = props;
   const BUTTONS = returnNumberOfButtons(noOfButton);
   return (
     <div className="detail-section">
       <div className="detail-container">
         <h6>{heading}</h6>
         <p>{subHeading}</p>
-        <div>To know more {BUTTONS}</div>
+        <div>{ extraContent } {BUTTONS}</div>
       </div>
     </div>
   );

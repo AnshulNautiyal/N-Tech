@@ -5,10 +5,10 @@ import { Image } from "./../common-components/Image";
 
 export const Landing = props => {
 
-  const { detailData = "", fileName = "" } = props;
+  const { detailData = "", fileName = "", extraContent ="" } = props;
   return (
     <>
-      <Detail {...detailData} />
+      <Detail {...detailData} extraContent={extraContent} />
       <Image fileName={fileName} />
     </>
   );

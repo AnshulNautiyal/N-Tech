@@ -17,7 +17,7 @@ function DOM() {
     <>
       <BigImage />
       <HeaderMain />
-      <LandingMainPage content={INTRO} fileName="work" />
+      <LandingMainPage content={INTRO} fileName="work" extraContent="To Know More..."/>
       <CommonSection />
       <ServiceParent />
       <LandingMainPage content={QUESTIONS} fileName="work3" />
