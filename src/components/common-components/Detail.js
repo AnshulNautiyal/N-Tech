@@ -15,6 +15,7 @@ function returnNumberOfButtons(noOfButton) {
           customClass={btnClass}
           buttonName={btnName}
           buttonColor={btnColor}
+          id="register"
         ></Button>
       );
     });
@@ -30,7 +31,7 @@ export const Detail = props => {
       <div className="detail-container">
         <h6>{heading}</h6>
         <p>{subHeading}</p>
-        {/* <div>{BUTTONS}</div> */}
+        <div>To know more {BUTTONS}</div>
       </div>
     </div>
   );

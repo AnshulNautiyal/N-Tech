@@ -3,7 +3,7 @@ export const INTRO = {
   subHeading: "You bring the skill. We'll make earning easy",
   noOfButton: [
     {
-      btnName: "LEARN MORE",
+      btnName: "Register",
       color: "green"
     }
   ]
@@ -58,7 +58,7 @@ export const ServicesData = {
     },
     {
       logoNumber: 2,
-      subHeading: "Software Development",
+      subHeading: "Smart IT office work space setup",
       content:
         "A great brand combines design and messaging to evoke emotion in your customers and drive strategy."
     },
@@ -99,7 +99,7 @@ export const footerContentData = [
     content: [
       "Web Design",
       "Web Development",
-      "Software Development",
+      "Smart IT office work space setup",
       "Android/iOS App Development",
       "Testing & Automation",
       "Training"

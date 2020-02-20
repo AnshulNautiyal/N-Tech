@@ -16,6 +16,7 @@
         @include section-sub-text($ft20);
       }
       div {
+        @include section-sub-text($ft20);
         .greenButton {
           @include buttonGreen();
           &:hover {
